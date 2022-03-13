@@ -37,6 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA3430C27DDEB9000A06801 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4C19827CA29290029E11C /* AppDelegate.swift */,
+				6CE4C19A27CA29290029E11C /* SceneDelegate.swift */,
+				6CE4C1A627CA292B0029E11C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CA3430D27DDEB9700A06801 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4C19C27CA29290029E11C /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CA3430E27DDEBA400A06801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4C19E27CA29290029E11C /* Main.storyboard */,
+				6CE4C1A327CA292B0029E11C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CA3430F27DDEBAF00A06801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4C1A127CA292B0029E11C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6CE4C18C27CA29290029E11C = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +91,10 @@
 		6CE4C19727CA29290029E11C /* WeeklyFinder */ = {
 			isa = PBXGroup;
 			children = (
-				6CE4C19827CA29290029E11C /* AppDelegate.swift */,
-				6CE4C19A27CA29290029E11C /* SceneDelegate.swift */,
-				6CE4C19C27CA29290029E11C /* ViewController.swift */,
-				6CE4C19E27CA29290029E11C /* Main.storyboard */,
-				6CE4C1A127CA292B0029E11C /* Assets.xcassets */,
-				6CE4C1A327CA292B0029E11C /* LaunchScreen.storyboard */,
-				6CE4C1A627CA292B0029E11C /* Info.plist */,
+				6CA3430D27DDEB9700A06801 /* ViewControllers */,
+				6CA3430E27DDEBA400A06801 /* Storyboards */,
+				6CA3430F27DDEBAF00A06801 /* Resources */,
+				6CA3430C27DDEB9000A06801 /* App */,
 			);
 			path = WeeklyFinder;
 			sourceTree = "<group>";
@@ -292,23 +324,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeeklyFinder/Info.plist;
+				INFOPLIST_FILE = WeeklyFinder/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weekly Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.WeeklyFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,23 +353,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeeklyFinder/Info.plist;
+				INFOPLIST_FILE = WeeklyFinder/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weekly Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.WeeklyFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
